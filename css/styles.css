@@ -11047,3 +11047,6 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+.borderino{
+  border: 2px solid red;
+}
