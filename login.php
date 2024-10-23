@@ -23,19 +23,13 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
-            <h3 class="navbar-brand" href="#page-top">Employee Name?</h3>
+            <h3 class="navbar-brand" href="#page-top">Software Name?</h3>
             <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="index.html">Back</a></li>                 
-                </ul>
-            </div>
+            </button>          
         </div>
     </nav>
     <!-- Call Section-->
@@ -43,27 +37,19 @@
     <section class="masthead1 row justify-content-center m-2 mb-5 scetion-form-height">
         <div class="row col-lg-6 border border-primary rounded justify-content-center align-self-md-center">   
             <div class="p-2 mt-2 justify-content-center">
-                <h3 class="border-bottom border-primary">Add Client</h3>
+                <h3 class="border-bottom border-primary">Login</h3>
             </div>    
             <form action="">
-                <div class="p-2">
-                    <label class="form-label-witdth" for="">Name:</label>
-                    <input class="form-input-witdth" type="text">
-                </div>
-                <div class="p-2">
-                    <label class="form-label-witdth" for="">Surname:</label>
-                    <input class="form-input-witdth" type="text">
-                </div>
-                <div class="p-2">
-                    <label class="form-label-witdth" for="">Telephone:</label>
-                    <input class="form-input-witdth" type="numbers">
-                </div>
                 <div class="p-2">
                     <label class="form-label-witdth" for="">Email:</label>
                     <input class="form-input-witdth" type="text">
                 </div>
+                <div class="p-2">
+                    <label class="form-label-witdth" for="">Password:</label>
+                    <input class="form-input-witdth" type="password">
+                </div>
                <div class="p-3 d-flex justify-content-center">
-                    <button class="btn btn-primary"><i class="fas fa-plus"></i> Add</button>
+                    <button class="btn btn-primary"> Login</button>
                </div>
             </form>
         </div>
